@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Títulos */
+h1, h2 {
+    font-weight: 600;
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 15px;
+}
+
+/* Botón */
+.btn-primary {
+    background-color: #6f42c1;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #5a32a3;
+}
+
+/* Footer */
+footer {
+    color: #555;
+}

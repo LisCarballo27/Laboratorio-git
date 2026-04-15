@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git con Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Guía Git</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="container mt-4 text-center">
+    <h1 class="display-4 text-primary">Tutorial de Git</h1>
+    <p class="lead">Aprende Git de forma sencilla, organizada y moderna.</p>
+    <a href="https://git-scm.com/downloads" target="_blank" class="btn btn-primary">Descargar Git</a>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="container mt-5">
+
+    <!-- FILA 1 -->
+    <div class="row g-4">
+      
+      <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+          <h2>¿Qué es Git?</h2>
+          <p>Git es un sistema de control de versiones que permite guardar el historial de cambios y trabajar en equipo.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+          <h2>Ventajas</h2>
+          <ul>
+            <li>Trabajo en equipo</li>
+            <li>Control de versiones</li>
+            <li>Uso de ramas</li>
+            <li>Recuperación de cambios</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FILA 2 -->
+    <div class="row g-4 mt-3">
+
+      <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+          <h2>Comandos básicos</h2>
+          <ul>
+            <li><code>git init</code></li>
+            <li><code>git add .</code></li>
+            <li><code>git commit -m "mensaje"</code></li>
+            <li><code>git status</code></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card p-3 shadow-sm">
+          <h2>Repositorios remotos</h2>
+          <ul>
+            <li><code>git remote add origin URL</code></li>
+            <li><code>git push -u origin main</code></li>
+            <li><code>git pull</code></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- FILA 3 -->
+    <div class="row mt-4">
+      <div class="col">
+        <div class="card p-3 shadow-sm">
+          <h2>Conceptos clave</h2>
+          <ul>
+            <li><strong>Repositorio:</strong> donde se guarda el proyecto</li>
+            <li><strong>Commit:</strong> guardar cambios</li>
+            <li><strong>Branch:</strong> rama de trabajo</li>
+            <li><strong>Merge:</strong> unir cambios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p>Proyecto de Git - Laboratorio 2</p>
+  </footer>
+
+</body>
+</html>
